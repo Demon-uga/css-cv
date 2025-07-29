@@ -1,0 +1,92 @@
+body {
+  background: #eee;
+  color: rgb(84, 38, 0);
+  margin: auto;
+  max-width: 1000px;
+  border-left: 1px solid #cacaca;
+  border-right: 1px solid #cacaca;
+  padding: 0px 10px 0px 10px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+h1 {
+  color: rgb(58, 24, 0);
+}
+.info {
+  font-style: italic;
+}
+.img {
+  width: 250px;
+  box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.img2 {
+  width: 180px;
+  box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.box {
+  border-radius: 49%;
+  border: solid 5px rgb(87, 39, 0);
+  border-bottom-style: dotted;
+  border-top-width: 12px;
+  background: #dddddd;
+  width: 700px;
+  margin: auto;
+  padding: 25px 100px 60px 130px;
+  box-shadow: 19px 19px 19px rgba(1, 1, 1, 0.5);
+}
+.box h2 {
+  margin-left: 70px;
+}
+.form label {
+  display: block;
+  margin: 5px 0;
+}
+.form input,
+textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(87, 39, 0);
+  font-family: inherit;
+  width: 100%;
+  outline: none;
+}
+.row {
+  display: flex;
+}
+.row > .form {
+  width: 50%;
+}
+.row > .form:last-child {
+  margin-left: 20px;
+}
+.l input {
+  border-bottom: none;
+  width: 50px;
+}
+.nopka {
+background: transparent;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+border: none;
+margin-left: 500px;
+margin-top: 20px;
+padding: 10px;
+}
+.nopka:hover {
+    background: rgb(180, 67, 67);
+    box-shadow: 0px 0px 20px 20px rgb(100, 0, 0);
+}
+.hobby { 
+  margin: 5px;
+  background: #e6ffe9;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.30);
+}
+.no {
+  background: #ffdcdc;
+}
